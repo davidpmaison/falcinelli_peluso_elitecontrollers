@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# R session junk
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Defensive: never commit the confidential identity key
+# (it lives outside this folder, but guard by name anyway)
+*IDENTITY_KEY*
+*CONFIDENTIAL*
+*do_not_upload*
+
+# Data not distributed via this repository
+raw_data/
+results/
